@@ -1,0 +1,17 @@
+RANDFILE               = $ENV::HOME/.rnd
+[ req ]
+default_bits           = 1024
+distinguished_name     = req_distinguished_name
+attributes             = req_attributes
+prompt                 = no
+output_password        = password
+[ req_distinguished_name ]
+C                      = US
+ST                     = VA
+L                      = Falls Church
+O                      = MyCompany
+OU                     = MyProgram
+CN                     = MyProgram
+emailAddress           = mycompany@none.com
+[ req_attributes ]
+challengePassword      = password
