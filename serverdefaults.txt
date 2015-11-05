@@ -4,7 +4,7 @@ default_bits           = 1024
 distinguished_name     = req_distinguished_name
 attributes             = req_attributes
 prompt                 = no
-output_password        = password
+output_password        = aicigaicig
 [ req_distinguished_name ]
 C                      = US
 ST                     = VA
@@ -14,4 +14,4 @@ OU                     = MyProgram
 CN                     = MyProgram
 emailAddress           = mycompany@none.com
 [ req_attributes ]
-challengePassword      = password
+challengePassword      = aicigaicig
